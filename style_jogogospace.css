@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Sarala:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    background: linear-gradient(60deg, #ffffff 30%, #9dafff 10%, #96a0ff 5%, #ffffff 55%);
+    
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    font-size: 18px;
+}
+.logo{
+    width: 8%;
+    
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+}
+.menu-item{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration:none;
+    color: #f86909 ;
+}
+
+.menu-item:hover{
+    color: #2c2d3d;
+    font-size: 20px;
+    background-color:#d6da01;
+    border: none;
+    box-shadow: 4px 5px 4px rgb(0,0,0,0.25);
+    border-radius: 20px;
+    padding: 15px;
+}
+.menu-item:active{
+    color:#0421c2;
+}
+
+.conteudo{
+    border-top: 0.4px solid #2c2d3d;
+    color: #000000;
+    margin-bottom: 48px;
+    margin-left: 150px;
+    
+}
+.conteudo-principal-escrito-titulo{
+    display: flex;
+    flex-direction:center;
+    font-size: 50px;
+    color: #d6da01;
+    text-shadow: 4px 5px 4px rgb(0,0,0,0.25);
+    padding: 30px;
+    margin: 30px;
+}
+.conteudo-principal{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 18px;
+    color: #000000;
+    padding: 15px;
+    margin-right: 80px;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #2c2d3d;
+}
+iframe{
+    display: flex;
+    align-items: center;
+    margin-left: 33%;
+    margin-bottom: 150px;
+}
+
+.imagem{
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+
+.whatsapp{
+    width: 70px;
+    height: 70px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}
+.voltatopo{
+    text-decoration: none;
+    color: #000000;
+    background-color: #f0ececcc;
+    padding: 10px;
+    position: fixed;
+    left: 40px;
+    bottom: 10px;
+    box-shadow: 3px 3px 0 rgb(187, 183, 183);
+    
+}

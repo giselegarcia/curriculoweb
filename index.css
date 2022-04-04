@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Sarala:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    background: linear-gradient(60deg, #ffffff 30%, #9dafff 10%, #96a0ff 5%, #ffffff 55%);
+    
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    font-size: 18px;
+   
+}
+.logo{
+    width: 8%;
+    
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+}
+.menu-item{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration:none;
+    color: #f86909 ;
+}
+
+.menu-item:hover{
+    color: #2c2d3d;
+    font-size: 20px;
+    background-color:#d6da01;
+    border: none;
+    box-shadow: 4px 5px 4px rgb(0,0,0,0.25);
+    border-radius: 20px;
+    padding: 15px;
+}
+.menu-item:active{
+    color:#0421c2;
+}
+
+.conteudo{
+    border-top: 0.4px solid #2c2d3d;
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 48px;
+    margin-left: 150px;
+}
+.conteudo-principal{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+}
+.conteudo-principal-escrito-titulo{
+    font-size: 50px;
+    color: #d6da01;
+    text-shadow: 4px 5px 4px rgb(0,0,0,0.25);
+}
+.conteudo-principal-escrito-subtitulo{
+    font-size: 30px;
+    color: #000000;
+}
+.conteudo-principal-escrito-botao{
+    background-color:#d6da01;
+    width: 140px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgb(0,0,0,0.25);
+    border-radius: 20px;
+    font-size: 18px;
+    color: #000000;
+}
+.conteudo-principal-escrito-botao:hover{
+    color: #ffffff;
+    font-size: 22px;
+    background-color:#3b38f7;
+}
+.conteudo-principal-escrito-botao:active{
+    color:#f86909;
+}
+
+.conteudo-principal-imagem{
+    height: 600px;
+    margin: 20px;
+    padding: 30px;
+}
+.conteudo-secundario, .conteudo-secundario-projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 28px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+   
+}
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #2c2d3d;
+    padding-top: 48px;
+    font-size: 24px;
+    color: #f86909;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.titulo-jogo{
+    padding-top: 20px;
+    font-size: 20px;
+    color: #0421c2;
+    margin-bottom: 16px;
+}
+.link-acesso{
+    text-decoration:none;
+    color: #0421c2;
+}
+.link-acesso:hover{
+    color: #d6da01;
+    font-size: 20px;
+}
+.link-acesso:active{
+    color:#f86909;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #2c2d3d;
+}
+.imagem{
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+
+.whatsapp{
+    width: 70px;
+    height: 70px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}
+.voltatopo{
+    text-decoration: none;
+    color: #000000;
+    background-color: #f0ececcc;
+    padding: 10px;
+    position: fixed;
+    left: 40px;
+    bottom: 10px;
+    box-shadow: 3px 3px 0 rgb(187, 183, 183);
+    
+}
